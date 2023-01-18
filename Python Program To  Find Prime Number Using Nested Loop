@@ -1,0 +1,15 @@
+# Python Program to to find Prime Number using Nested Loop
+
+
+n = int(input())
+k = 2
+while k <= n:
+    flag = False
+    d = 2
+    while d < k:
+        if k % 2 == 0:
+            flag = True
+        d = d+1
+    if not(flag):
+        print(k)
+    k = k+1
